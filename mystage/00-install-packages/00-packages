@@ -1,0 +1,12 @@
+xfce4 xfce4-terminal
+git
+rfkill
+firefox rpi-firefox-mods
+gldriver-test
+fonts-droid-fallback
+fonts-liberation2
+libcamera-tools
+libcamera-apps
+python3-picamera2
+python3-open3d
+wpagui

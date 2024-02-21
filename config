@@ -10,4 +10,4 @@ TIMEZONE_DEFAULT="Australia/Brisbane"
 FIRST_USER_NAME="geolidar"
 WPA_COUNTRY=AU
 ENABLE_SSH=1
-STAGE_LIST="stage0 stage1 stage2"
+STAGE_LIST="stage0 stage1 stage2 mystage"
