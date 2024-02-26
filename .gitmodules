@@ -1,0 +1,3 @@
+[submodule "mystage/02-copy-files/full-source"]
+	path = mystage/02-copy-files/full-source
+	url = https://github.com/heugyy/Geobotica_source_code
