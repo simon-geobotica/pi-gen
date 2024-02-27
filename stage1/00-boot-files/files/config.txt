@@ -5,7 +5,10 @@
 # Uncomment some or all of these to enable the optional hardware interfaces
 #dtparam=i2c_arm=on
 #dtparam=i2s=on
-#dtparam=spi=on
+
+# Enable SPI1
+dtparam=spi=on
+dtoverlay=spi1-3cs
 
 # Enable audio (loads snd_bcm2835)
 dtparam=audio=on
@@ -14,7 +17,8 @@ dtparam=audio=on
 # /boot/firmware/overlays/README
 
 # Automatically load overlays for detected cameras
-camera_auto_detect=1
+#camera_auto_detect=1
+dtoverlay=imx709,cam0
 
 # Automatically load overlays for detected DSI displays
 display_auto_detect=1
