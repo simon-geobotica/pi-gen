@@ -5,6 +5,7 @@
 # Uncomment some or all of these to enable the optional hardware interfaces
 #dtparam=i2c_arm=on
 #dtparam=i2s=on
+dtparam=i2c_vc=on
 
 # Enable SPI1
 dtparam=spi=on
@@ -18,7 +19,7 @@ dtparam=audio=on
 
 # Automatically load overlays for detected cameras
 #camera_auto_detect=1
-dtoverlay=imx709,cam0
+dtoverlay=imx708,cam0
 
 # Automatically load overlays for detected DSI displays
 display_auto_detect=1
